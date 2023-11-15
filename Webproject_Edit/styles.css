@@ -2,6 +2,10 @@
     margin:0px;
     padding:0px;
 }
+body{
+    width: 100%;
+    background-color: #d3d4e7;
+}
 header{
     width:100%;
     align-items: Center;
@@ -44,6 +48,9 @@ a:active{
 }
 .content{
     width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 footer{
     width: 100%;
@@ -55,7 +62,7 @@ footer{
     color: #1505ab;
 }
 .content p{
-    font-size: 20px;
+    font-size: 25px;
 }
 .content img{
 padding-left: 0px;
@@ -66,7 +73,9 @@ border: #000000 4px  solid;
 border-radius: 100px;
 display: block;
 max-width: 100%;
-height: auto;
+height: 400px;
+width: 700px;
+overflow: none;
 }
 .content form{
     max-width: max-content;
